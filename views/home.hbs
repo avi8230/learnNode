@@ -1,12 +1,53 @@
 {{>header}}
 <h1>{{title}}</h1>
 
-<ul>
-  {{#each users}}
-    <li>firstName: {{this.firstName}}, userName: {{this.userName}}, email: {{this.email}}</li>
-    {{/each}} 
-</ul>
+<style>
+    #sidebar {
+        width: 200px;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+    }
 
-    {{!-- <img src="https://www.ivory.co.il/files/catalog/org/1706174584l84Is.webp" alt="computer" /> --}}
+    #sidebar h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #sidebar li {
+        margin-bottom: 5px;
+    }
+
+    #sidebar a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    #sidebar a:hover {
+        color: #000;
+    }
+</style>
+
+<div id="sidebar">
+    <h2>Categories</h2>
+    <ul>
+        <li><a href="/products/category/Laptops">Laptops</a></li>
+        <li><a href="/products/category/Smartphones">Smartphones</a></li>
+        <li><a href="/products/category/Gaming Desktops">Gaming Desktops</a></li>
+        <li><a href="/products/category/Gaming Consoles">Gaming Consoles</a></li>
+        <li><a href="/products/category/External Hard Drives">External Hard Drives</a></li>
+        <li><a href="/products/category/Gaming Headsets">Gaming Headsets</a></li>
+        <li><a href="/products/category/Action Cameras">Action Cameras</a></li>
+        <li><a href="/products/category/Computer Memory">Computer Memory</a></li>
+        <li><a href="/products/category/Power Supplies">Power Supplies</a></li>
+        <li><a href="/products/category/Printers">Printers</a></li>
+    </ul>
+</div>
 
 {{>footer}}

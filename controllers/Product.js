@@ -69,8 +69,20 @@ const singleProduct = async (request, response) => {
 
 }
 
+const productsByCategory = async (request, response) => {
+    const categoryName = request.params.nameOfCategory;
+    const productsInCategory = await Product.find({ category: categoryName }).lean();
+
+    if (productsInCategory.length > 0) {
+        response.render('products/productsByCategory', { category: categoryName, products: productsInCategory });
+    } else {
+        response.render('404');
+    }
+}
+
 module.exports = {
     singleProduct,
     getProducts,
-    search
+    search,
+    productsByCategory
 }

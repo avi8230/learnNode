@@ -1,0 +1,42 @@
+[
+    {
+        "id": 13,
+        "name": "Samsung Galaxy Tab S8 Ultra Tablet",
+        "description": "Samsung Galaxy Tab S8 Ultra tablet with a 14.6-inch AMOLED display, Snapdragon 8 Gen 2 processor, 8GB RAM, 256GB storage, S Pen support, and 5G connectivity.",
+        "price": 1399,
+        "quantity": 20,
+        "category": "Tablets"
+    },
+    {
+        "id": 14,
+        "name": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+        "description": "Sony WH-1000XM5 wireless headphones with industry-leading noise-canceling technology, Bluetooth connectivity, touch sensor controls, and up to 30 hours of battery life.",
+        "price": 349,
+        "quantity": 30,
+        "category": "Headphones"
+    },
+    {
+        "id": 15,
+        "name": "Amazon Echo Show 15 (3rd Gen)",
+        "description": "Amazon Echo Show 15 (3rd Gen) smart display with a 15.6-inch touchscreen, built-in Alexa voice assistant, video calling capabilities, smart home control, and streaming media support.",
+        "price": 299,
+        "quantity": 25,
+        "category": "Smart Home Devices"
+    },
+    {
+        "id": 16,
+        "name": "Canon EOS R5 Mirrorless Camera",
+        "description": "Canon EOS R5 mirrorless camera with a 45MP full-frame sensor, 8K video recording, 5-axis in-body image stabilization, Dual Pixel CMOS AF II, and Wi-Fi/Bluetooth connectivity.",
+        "price": 3899,
+        "quantity": 15,
+        "category": "Cameras"
+    },
+    {
+        "id": 17,
+        "name": "LG OLED65C1PUA 65-Inch 4K OLED TV",
+        "description": "LG OLED65C1PUA 65-inch 4K OLED TV with OLED evo technology, Dolby Vision IQ and Dolby Atmos support, HDMI 2.1 ports for gaming, webOS smart platform, and AI ThinQ voice control.",
+        "price": 2499,
+        "quantity": 10,
+        "category": "TVs"
+    }
+]

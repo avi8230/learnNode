@@ -13,6 +13,7 @@ router.get('/', ProductConroller.getProducts);
 
 router.get('/:productId', ProductConroller.singleProduct);
 
+router.get('/category/:nameOfCategory', ProductConroller.productsByCategory);
 
 
 // 
