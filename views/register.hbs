@@ -1,13 +1,9 @@
 {{>header}}
 
-<form class="ui form" method="POST" action="/new-user"> 
+<form class="ui form" method="POST" action="/users/register"> 
   <div class="field">
-    <label>First Name</label>
-    <input type="text" name="firstName" placeholder="First Name" />
-  </div>
-  <div class="field">
-    <label>UserName</label>
-    <input type="text" name="userName" placeholder="User Name" />
+    <label>Name</label>
+    <input type="text" name="name" placeholder="User Name" />
   </div>
   <div class="field">
     <label>Email</label>

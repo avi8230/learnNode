@@ -5,6 +5,7 @@ const PORT = 8080;
 const path = require('path');
 const hbs = require('hbs');
 const productRouter = require('./routes/product');
+const userRouter = require('./routes/user');
 const bodyParser = require('body-parser');
 const db = require('./utils/database');
 
@@ -30,6 +31,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 // })
 
 app.use('/products', productRouter);
+app.use('/users', userRouter);
 
 app.get('/', (req, response) => {
     response.render('home', {
